@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Exercice 2B</title>
+    <title>Exercice 1</title>
 </head>
 <body>
-    
-</body>
+    <div id="parameters">
+      <table width="100%" border="1">
+        <tr>
+            <td>couleur de fond(rgb)</td>
+            <td>0<input type="range" min="0" max="255" onchange="update(this)"> 255 </td>
+        </tr>
+        <tr>
+            <td>padding</td>
+            <td>0<input type="range" min="0" max="30" onchange="update(this)"> 30 </td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>0<input type="range" min="0" max="200" onchange="update(this)"> 200 </td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>0<input type="range" min="0" max="200" onchange="update(this)"> 200  </td>
+        </tr>
+        <tr>
+            <td>arrondi</td>
+            <td>0<input type="range" min="0" max="30" onchange="update(this)"> 30 </td>
+        </tr>  
+        <tr>
+            <td>rotation</td>
+            <td>0<input type="range" min="0" max="180" onchange="update(this)"> 180 </td>
+        </tr>          
+       </table>
+    </div>
+    <div id="titre">
+        <h1 id="p1">TITRE DE TEST</h1>
+    </div>
+    <script src="js/main.js"></script>
+    </body>     
 </html>
